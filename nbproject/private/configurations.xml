@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="dist">
+        <df name="Debug">
+        </df>
+        <df name="Release">
+        </df>
+      </df>
+      <df name="glcd">
+        <in>Printer.cpp</in>
+        <in>Printer.h</in>
+        <in>fonts.h</in>
+        <in>glcd.cpp</in>
+        <in>glcd.h</in>
+        <in>keyboard.h</in>
+        <in>shapes.h</in>
+      </df>
+      <df name="mbed">
+        <df name="TARGET_K64F">
+          <df name="TARGET_Freescale">
+            <df name="TARGET_KPSDK_MCUS">
+              <df name="TARGET_KPSDK_CODE">
+                <df name="common">
+                  <df name="phyksz8081">
+                    <in>fsl_phy_driver.h</in>
+                  </df>
+                </df>
+                <df name="drivers">
+                  <df name="clock">
+                    <in>fsl_clock_manager.h</in>
+                  </df>
+                  <df name="enet">
+                    <in>fsl_enet_driver.h</in>
+                    <in>fsl_enet_rtcs_adapter.h</in>
+                  </df>
+                  <df name="interrupt">
+                    <in>fsl_interrupt_features.h</in>
+                    <in>fsl_interrupt_manager.h</in>
+                  </df>
+                  <df name="pit">
+                    <df name="common">
+                      <in>fsl_pit_common.h</in>
+                    </df>
+                    <in>fsl_pit_driver.h</in>
+                  </df>
+                </df>
+                <df name="hal">
+                  <df name="adc">
+                    <in>fsl_adc_features.h</in>
+                    <in>fsl_adc_hal.h</in>
+                  </df>
+                  <df name="can">
+                    <in>fsl_flexcan_features.h</in>
+                    <in>fsl_flexcan_hal.h</in>
+                  </df>
+                  <df name="dac">
+                    <in>fsl_dac_features.h</in>
+                    <in>fsl_dac_hal.h</in>
+                  </df>
+                  <df name="dmamux">
+                    <in>fsl_dmamux_features.h</in>
+                    <in>fsl_dmamux_hal.h</in>
+                  </df>
+                  <df name="dspi">
+                    <in>fsl_dspi_features.h</in>
+                    <in>fsl_dspi_hal.h</in>
+                  </df>
+                  <df name="edma">
+                    <in>fsl_edma_features.h</in>
+                    <in>fsl_edma_hal.h</in>
+                  </df>
+                  <df name="enet">
+                    <in>fsl_enet_features.h</in>
+                    <in>fsl_enet_hal.h</in>
+                  </df>
+                  <df name="flextimer">
+                    <in>fsl_ftm_features.h</in>
+                    <in>fsl_ftm_hal.h</in>
+                  </df>
+                  <df name="gpio">
+                    <in>fsl_gpio_features.h</in>
+                    <in>fsl_gpio_hal.h</in>
+                  </df>
+                  <df name="i2c">
+                    <in>fsl_i2c_features.h</in>
+                    <in>fsl_i2c_hal.h</in>
+                  </df>
+                  <df name="llwu">
+                    <in>fsl_llwu_features.h</in>
+                    <in>fsl_llwu_hal.h</in>
+                  </df>
+                  <df name="lptmr">
+                    <in>fsl_lptmr_features.h</in>
+                    <in>fsl_lptmr_hal.h</in>
+                  </df>
+                  <df name="lpuart">
+                    <in>fsl_lpuart_features.h</in>
+                    <in>fsl_lpuart_hal.h</in>
+                  </df>
+                  <df name="mcg">
+                    <in>fsl_mcg_features.h</in>
+                    <in>fsl_mcg_hal.h</in>
+                    <in>fsl_mcg_hal_modes.h</in>
+                  </df>
+                  <df name="mpu">
+                    <in>fsl_mpu_features.h</in>
+                    <in>fsl_mpu_hal.h</in>
+                  </df>
+                  <df name="osc">
+                    <in>fsl_osc_features.h</in>
+                    <in>fsl_osc_hal.h</in>
+                  </df>
+                  <df name="pdb">
+                    <in>fsl_pdb_features.h</in>
+                    <in>fsl_pdb_hal.h</in>
+                  </df>
+                  <df name="pit">
+                    <in>fsl_pit_features.h</in>
+                    <in>fsl_pit_hal.h</in>
+                  </df>
+                  <df name="pmc">
+                    <in>fsl_pmc_features.h</in>
+                    <in>fsl_pmc_hal.h</in>
+                  </df>
+                  <df name="port">
+                    <in>fsl_port_features.h</in>
+                    <in>fsl_port_hal.h</in>
+                  </df>
+                  <df name="rcm">
+                    <in>fsl_rcm_features.h</in>
+                    <in>fsl_rcm_hal.h</in>
+                  </df>
+                  <df name="rtc">
+                    <in>fsl_rtc_features.h</in>
+                    <in>fsl_rtc_hal.h</in>
+                  </df>
+                  <df name="sai">
+                    <in>fsl_sai_features.h</in>
+                    <in>fsl_sai_hal.h</in>
+                  </df>
+                  <df name="sdhc">
+                    <in>fsl_sdhc_features.h</in>
+                    <in>fsl_sdhc_hal.h</in>
+                  </df>
+                  <df name="sim">
+                    <in>fsl_sim_features.h</in>
+                    <in>fsl_sim_hal.h</in>
+                  </df>
+                  <df name="smc">
+                    <in>fsl_smc_features.h</in>
+                    <in>fsl_smc_hal.h</in>
+                  </df>
+                  <df name="uart">
+                    <in>fsl_uart_features.h</in>
+                    <in>fsl_uart_hal.h</in>
+                  </df>
+                  <df name="wdog">
+                    <in>fsl_wdog_features.h</in>
+                    <in>fsl_wdog_hal.h</in>
+                  </df>
+                </df>
+                <df name="utilities">
+                  <in>fsl_misc_utilities.h</in>
+                  <in>fsl_os_abstraction.h</in>
+                  <in>fsl_os_abstraction_mbed.h</in>
+                  <in>sw_timer.h</in>
+                </df>
+              </df>
+              <df name="TARGET_MCU_K64F">
+                <df name="device">
+                  <df name="device">
+                    <df name="MK64F12">
+                      <in>MK64F12.h</in>
+                      <in>MK64F12_adc.h</in>
+                      <in>MK64F12_aips.h</in>
+                      <in>MK64F12_axbs.h</in>
+                      <in>MK64F12_can.h</in>
+                      <in>MK64F12_cau.h</in>
+                      <in>MK64F12_cmp.h</in>
+                      <in>MK64F12_cmt.h</in>
+                      <in>MK64F12_crc.h</in>
+                      <in>MK64F12_dac.h</in>
+                      <in>MK64F12_dma.h</in>
+                      <in>MK64F12_dmamux.h</in>
+                      <in>MK64F12_enet.h</in>
+                      <in>MK64F12_ewm.h</in>
+                      <in>MK64F12_fb.h</in>
+                      <in>MK64F12_fmc.h</in>
+                      <in>MK64F12_ftfe.h</in>
+                      <in>MK64F12_ftm.h</in>
+                      <in>MK64F12_gpio.h</in>
+                      <in>MK64F12_i2c.h</in>
+                      <in>MK64F12_i2s.h</in>
+                      <in>MK64F12_llwu.h</in>
+                      <in>MK64F12_lptmr.h</in>
+                      <in>MK64F12_mcg.h</in>
+                      <in>MK64F12_mcm.h</in>
+                      <in>MK64F12_mpu.h</in>
+                      <in>MK64F12_nv.h</in>
+                      <in>MK64F12_osc.h</in>
+                      <in>MK64F12_pdb.h</in>
+                      <in>MK64F12_pit.h</in>
+                      <in>MK64F12_pmc.h</in>
+                      <in>MK64F12_port.h</in>
+                      <in>MK64F12_rcm.h</in>
+                      <in>MK64F12_rfsys.h</in>
+                      <in>MK64F12_rfvbat.h</in>
+                      <in>MK64F12_rng.h</in>
+                      <in>MK64F12_rtc.h</in>
+                      <in>MK64F12_sdhc.h</in>
+                      <in>MK64F12_sim.h</in>
+                      <in>MK64F12_smc.h</in>
+                      <in>MK64F12_spi.h</in>
+                      <in>MK64F12_uart.h</in>
+                      <in>MK64F12_usb.h</in>
+                      <in>MK64F12_usbdcd.h</in>
+                      <in>MK64F12_vref.h</in>
+                      <in>MK64F12_wdog.h</in>
+                    </df>
+                    <in>fsl_device_registers.h</in>
+                  </df>
+                  <df name="MK64F12">
+                    <in>fsl_bitaccess.h</in>
+                  </df>
+                </df>
+                <df name="MK64F12">
+                  <in>fsl_clock_K64F12.h</in>
+                  <in>fsl_sim_hal_K64F12.h</in>
+                </df>
+                <df name="TARGET_FRDM">
+                  <in>PeripheralNames.h</in>
+                  <in>PinNames.h</in>
+                  <in>crc.h</in>
+                  <in>device.h</in>
+                </df>
+              </df>
+              <in>PeripheralPins.h</in>
+              <in>PortNames.h</in>
+              <in>gpio_object.h</in>
+              <in>objects.h</in>
+            </df>
+          </df>
+          <df name="TOOLCHAIN_GCC_ARM">
+          </df>
+          <in>MK64F12.h</in>
+          <in>arm_common_tables.h</in>
+          <in>arm_const_structs.h</in>
+          <in>arm_math.h</in>
+          <in>cmsis.h</in>
+          <in>cmsis_nvic.h</in>
+          <in>core_ca9.h</in>
+          <in>core_caFunc.h</in>
+          <in>core_caInstr.h</in>
+          <in>core_ca_mmu.h</in>
+          <in>core_cm0.h</in>
+          <in>core_cm0plus.h</in>
+          <in>core_cm3.h</in>
+          <in>core_cm4.h</in>
+          <in>core_cm4_simd.h</in>
+          <in>core_cm7.h</in>
+          <in>core_cmFunc.h</in>
+          <in>core_cmInstr.h</in>
+          <in>core_cmSimd.h</in>
+          <in>core_sc000.h</in>
+          <in>core_sc300.h</in>
+          <in>system_MK64F12.h</in>
+        </df>
+        <in>AnalogIn.h</in>
+        <in>AnalogOut.h</in>
+        <in>BusIn.h</in>
+        <in>BusInOut.h</in>
+        <in>BusOut.h</in>
+        <in>CAN.h</in>
+        <in>CThunk.h</in>
+        <in>CallChain.h</in>
+        <in>CircularBuffer.h</in>
+        <in>DigitalIn.h</in>
+        <in>DigitalInOut.h</in>
+        <in>DigitalOut.h</in>
+        <in>DirHandle.h</in>
+        <in>Ethernet.h</in>
+        <in>FileBase.h</in>
+        <in>FileHandle.h</in>
+        <in>FileLike.h</in>
+        <in>FilePath.h</in>
+        <in>FileSystemLike.h</in>
+        <in>FunctionPointer.h</in>
+        <in>I2C.h</in>
+        <in>I2CSlave.h</in>
+        <in>InterruptIn.h</in>
+        <in>InterruptManager.h</in>
+        <in>LocalFileSystem.h</in>
+        <in>LowPowerTicker.h</in>
+        <in>LowPowerTimeout.h</in>
+        <in>LowPowerTimer.h</in>
+        <in>PortIn.h</in>
+        <in>PortInOut.h</in>
+        <in>PortOut.h</in>
+        <in>PwmOut.h</in>
+        <in>RawSerial.h</in>
+        <in>SPI.h</in>
+        <in>SPISlave.h</in>
+        <in>Serial.h</in>
+        <in>SerialBase.h</in>
+        <in>Stream.h</in>
+        <in>Ticker.h</in>
+        <in>Timeout.h</in>
+        <in>Timer.h</in>
+        <in>TimerEvent.h</in>
+        <in>Transaction.h</in>
+        <in>analogin_api.h</in>
+        <in>analogout_api.h</in>
+        <in>buffer.h</in>
+        <in>can_api.h</in>
+        <in>can_helper.h</in>
+        <in>dma_api.h</in>
+        <in>ethernet_api.h</in>
+        <in>gpio_api.h</in>
+        <in>gpio_irq_api.h</in>
+        <in>i2c_api.h</in>
+        <in>lp_ticker_api.h</in>
+        <in>mbed.h</in>
+        <in>mbed_assert.h</in>
+        <in>mbed_debug.h</in>
+        <in>mbed_error.h</in>
+        <in>mbed_interface.h</in>
+        <in>pinmap.h</in>
+        <in>platform.h</in>
+        <in>port_api.h</in>
+        <in>pwmout_api.h</in>
+        <in>rtc_api.h</in>
+        <in>rtc_time.h</in>
+        <in>semihost_api.h</in>
+        <in>serial_api.h</in>
+        <in>sleep_api.h</in>
+        <in>spi_api.h</in>
+        <in>ticker_api.h</in>
+        <in>toolchain.h</in>
+        <in>us_ticker_api.h</in>
+        <in>wait_api.h</in>
+      </df>
+      <df name="SDFileSystem">
+        <df name="FATFileSystem">
+          <df name="ChaN">
+            <in>ccsbcs.cpp</in>
+            <in>diskio.cpp</in>
+            <in>diskio.h</in>
+            <in>ff.cpp</in>
+            <in>ff.h</in>
+            <in>ffconf.h</in>
+            <in>integer.h</in>
+          </df>
+          <in>FATDirHandle.cpp</in>
+          <in>FATDirHandle.h</in>
+          <in>FATFileHandle.cpp</in>
+          <in>FATFileHandle.h</in>
+          <in>FATFileSystem.cpp</in>
+          <in>FATFileSystem.h</in>
+          <in>MemFileSystem.h</in>
+        </df>
+        <in>SDCRC.cpp</in>
+        <in>SDCRC.h</in>
+        <in>SDFileSystem.cpp</in>
+        <in>SDFileSystem.h</in>
+      </df>
+      <df name="src">
+        <in>Analise.cpp</in>
+        <in>Analise.h</in>
+        <in>Bundle.h</in>
+        <in>DS1307.cpp</in>
+        <in>DS1307.h</in>
+        <in>DateTime.cpp</in>
+        <in>DateTime.h</in>
+        <in>FreescaleIAP.cpp</in>
+        <in>FreescaleIAP.h</in>
+        <in>Properties.cpp</in>
+        <in>Properties.h</in>
+        <in>bsp.h</in>
+        <in>polyperm220d.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
