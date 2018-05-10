@@ -63,6 +63,7 @@ enum SIGTYPES{
         ACTIVATEPROPERTIES_SIG,
         LISTPROPERTIES_SIG,
         APPENDTOFILE_SIG,
+        SETUSER_SIG,
           
         INITANALISE_SIG,
         DOANALISE_SIG,

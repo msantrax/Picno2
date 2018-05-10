@@ -380,6 +380,14 @@
         <in>bsp.h</in>
         <in>polyperm220d.cpp</in>
       </df>
+      <df name="telas">
+        <df name="Ampulheta">
+        </df>
+        <df name="man_icons">
+        </df>
+        <df name="Picno">
+        </df>
+      </df>
     </df>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>

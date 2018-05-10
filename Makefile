@@ -8,7 +8,7 @@ GREP=grep
 
 OBJECTS = \
     ./src/polyperm220d.o  \
-    ./src/Properties.o ./glcd/glcd.o ./src/Analise.o ./src/FreescaleIAP.o \
+    ./src/Properties.o ./glcd/glcd.o ./src/Analise.o ./src/FreescaleIAP.o ./glcd/Printer.o \
     ./src/DS1307.o ./src/DateTime.o \
     ./SDFileSystem/SDCRC.o ./SDFileSystem/SDFileSystem.o \
     ./SDFileSystem/FATFileSystem/FATDirHandle.o ./SDFileSystem/FATFileSystem/FATFileHandle.o ./SDFileSystem/FATFileSystem/FATFileSystem.o \
@@ -76,7 +76,7 @@ endif
 
 .PHONY: all clean lst size
 
-all: $(PROJECT).bin $(PROJECT).hex size load
+all: $(PROJECT).bin $(PROJECT).hex size
 	
 
 load: $(PROJECT).bin

@@ -5,6 +5,8 @@
 
 #include <vector>
 #include <string>
+#include <list>
+
 
 namespace blaine {
 
@@ -42,6 +44,10 @@ public:
     
     void setRawTime(time_t rawt) {rawtime = (time_t)rawt; set_time(rawtime);};
     time_t getRawTime() {return rawtime;};
+    
+    void setAllowLevel(uint8_t _allowlevel);
+    void saveProfile();
+    
   
 private:
     
@@ -130,6 +136,10 @@ private:
     //char *varinitptr;
     //char *varendptr;
     
+    int menumap[32];
+    int menuptr_include=0;
+    int menuptr_all=0;
+    uint8_t allowlevel=0;
     
     uint8_t keycount;
 };

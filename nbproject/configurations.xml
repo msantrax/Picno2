@@ -142,7 +142,7 @@
           <buildCommandWorkingDir>.</buildCommandWorkingDir>
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
-          <executablePath></executablePath>
+          <executablePath>dist/Release/picno_0705181614_reload.elf</executablePath>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
@@ -161,10 +161,6 @@
             tool="1"
             flavor2="4">
         <ccTool flags="0">
-          <incDir>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
-            <pElem>.</pElem>
-          </incDir>
         </ccTool>
       </item>
       <item path="SDFileSystem/FATFileSystem/ChaN/diskio.cpp"
@@ -173,16 +169,10 @@
             flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>mbed</pElem>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
             <pElem>/usr/include/newlib/machine</pElem>
             <pElem>/usr/include/newlib</pElem>
             <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
             <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>/usr/include/newlib/c++/4.8</pElem>
-            <pElem>SDFileSystem/FATFileSystem</pElem>
-            <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -191,10 +181,6 @@
             tool="1"
             flavor2="4">
         <ccTool flags="0">
-          <incDir>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
-            <pElem>.</pElem>
-          </incDir>
         </ccTool>
       </item>
       <item path="SDFileSystem/FATFileSystem/FATDirHandle.cpp"
@@ -203,12 +189,8 @@
             flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>mbed</pElem>
-            <pElem>SDFileSystem/FATFileSystem</pElem>
             <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
             <pElem>/usr/include/newlib</pElem>
-            <pElem>.</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -218,15 +200,10 @@
             flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>SDFileSystem/FATFileSystem</pElem>
-            <pElem>mbed</pElem>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
             <pElem>/usr/include/newlib/machine</pElem>
             <pElem>/usr/include/newlib</pElem>
             <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
             <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -236,55 +213,30 @@
             flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>SDFileSystem/FATFileSystem</pElem>
-            <pElem>mbed</pElem>
             <pElem>/usr/include/newlib/machine</pElem>
             <pElem>/usr/include/newlib</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
             <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
             <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
-            <pElem>/usr/include/newlib/c++/4.8</pElem>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
-            <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
           </incDir>
         </ccTool>
       </item>
       <item path="SDFileSystem/SDCRC.cpp" ex="false" tool="1" flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>SDFileSystem</pElem>
             <pElem>/usr/include/newlib/machine</pElem>
             <pElem>/usr/include/newlib</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
             <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
             <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
-            <pElem>/usr/include/newlib/c++/4.8</pElem>
-            <pElem>mbed</pElem>
-            <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
           </incDir>
         </ccTool>
       </item>
       <item path="SDFileSystem/SDFileSystem.cpp" ex="false" tool="1" flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>mbed</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
-            <pElem>SDFileSystem</pElem>
             <pElem>/usr/include/newlib/machine</pElem>
             <pElem>/usr/include/newlib</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
             <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
             <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>/usr/include/newlib/c++/4.8</pElem>
-            <pElem>SDFileSystem/FATFileSystem</pElem>
-            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/gpio</pElem>
-            <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -531,9 +483,9 @@
             <pElem>/usr/include/newlib/sys</pElem>
             <pElem>/usr/include/newlib/c++/4.8</pElem>
             <pElem>/usr/include/newlib/c++/4.8/arm-none-eabi/bits</pElem>
+            <pElem>/usr/include/newlib/c++/4.8/debug</pElem>
             <pElem>glcd</pElem>
             <pElem>SDFileSystem/FATFileSystem</pElem>
-            <pElem>/usr/include/newlib/c++/4.8/debug</pElem>
             <pElem>mbed/TARGET_K64F</pElem>
             <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/gpio</pElem>
             <pElem>/usr/include/newlib/c++/4.8/arm-none-eabi</pElem>
@@ -544,35 +496,187 @@
       <item path="src/DS1307.cpp" ex="false" tool="1" flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>src</pElem>
-            <pElem>/usr/include/newlib/machine</pElem>
-            <pElem>/usr/include/newlib</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
-            <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
-            <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>/usr/include/newlib/c++/4.8</pElem>
+            <pElem>.</pElem>
             <pElem>mbed</pElem>
             <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/common</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/common/phyksz8081</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/clock</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/enet</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/interrupt</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/pit</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/pit/common</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/adc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/can</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/dac</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/dmamux</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/dspi</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/edma</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/enet</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/flextimer</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/gpio</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/i2c</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/llwu</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/lptmr</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/lpuart</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/mcg</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/mpu</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/osc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/pdb</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/pit</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/pmc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/port</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/rcm</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/rtc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/sai</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/sdhc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/sim</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/smc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/uart</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/wdog</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/utilities</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/MK64F12</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/MK64F12</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/device</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/device/MK64F12</pElem>
+            <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+            <pElem>glcd</pElem>
+            <pElem>src</pElem>
+            <pElem>SDFileSystem</pElem>
+            <pElem>SDFileSystem/FATFileSystem</pElem>
+            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
+            <pElem>/usr/include/newlib/c++/4.8</pElem>
+            <pElem>/usr/include/newlib/c++/4.8/arm-none-eabi</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
           </incDir>
+          <preprocessorList>
+            <Elem>ARM_MATH_CM4</Elem>
+            <Elem>CPU_MK64FN1M0VMD12</Elem>
+            <Elem>FSL_RTOS_MBED</Elem>
+            <Elem>MBED_BUILD_TIMESTAMP=1456192000.44</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>TARGET_CORTEX_M</Elem>
+            <Elem>TARGET_FF_ARDUINO</Elem>
+            <Elem>TARGET_FRDM</Elem>
+            <Elem>TARGET_Freescale</Elem>
+            <Elem>TARGET_K64F</Elem>
+            <Elem>TARGET_KPSDK_CODE</Elem>
+            <Elem>TARGET_KPSDK_MCUS</Elem>
+            <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+            <Elem>TARGET_LIKE_MBED</Elem>
+            <Elem>TARGET_M4</Elem>
+            <Elem>TARGET_MCU_K64F</Elem>
+            <Elem>TARGET_RTOS_M4_M7</Elem>
+            <Elem>TOOLCHAIN_GCC</Elem>
+            <Elem>TOOLCHAIN_GCC_ARM</Elem>
+            <Elem>__CORTEX_M4</Elem>
+            <Elem>__FPU_PRESENT=1</Elem>
+            <Elem>__MBED__=1</Elem>
+          </preprocessorList>
         </ccTool>
       </item>
       <item path="src/DateTime.cpp" ex="false" tool="1" flavor2="4">
         <ccTool flags="0">
           <incDir>
-            <pElem>src</pElem>
-            <pElem>/usr/include/newlib/machine</pElem>
-            <pElem>/usr/include/newlib</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
-            <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
-            <pElem>/usr/include/newlib/sys</pElem>
-            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
-            <pElem>/usr/include/newlib/c++/4.8</pElem>
+            <pElem>.</pElem>
             <pElem>mbed</pElem>
             <pElem>mbed/TARGET_K64F</pElem>
-            <pElem>.</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/common</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/common/phyksz8081</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/clock</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/enet</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/interrupt</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/pit</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/drivers/pit/common</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/adc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/can</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/dac</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/dmamux</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/dspi</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/edma</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/enet</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/flextimer</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/gpio</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/i2c</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/llwu</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/lptmr</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/lpuart</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/mcg</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/mpu</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/osc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/pdb</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/pit</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/pmc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/port</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/rcm</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/rtc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/sai</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/sdhc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/sim</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/smc</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/uart</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/hal/wdog</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_KPSDK_CODE/utilities</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/MK64F12</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/MK64F12</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/device</pElem>
+            <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/device/MK64F12</pElem>
+            <pElem>mbed/TARGET_K64F/TOOLCHAIN_GCC_ARM</pElem>
+            <pElem>glcd</pElem>
+            <pElem>src</pElem>
+            <pElem>SDFileSystem</pElem>
+            <pElem>SDFileSystem/FATFileSystem</pElem>
+            <pElem>SDFileSystem/FATFileSystem/ChaN</pElem>
+            <pElem>/usr/include/newlib/c++/4.8</pElem>
+            <pElem>/usr/include/newlib/c++/4.8/arm-none-eabi</pElem>
+            <pElem>/usr/include/newlib/machine</pElem>
+            <pElem>/usr/include/newlib</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/4.8/include</pElem>
+            <pElem>/usr/include/newlib/sys</pElem>
           </incDir>
+          <preprocessorList>
+            <Elem>ARM_MATH_CM4</Elem>
+            <Elem>CPU_MK64FN1M0VMD12</Elem>
+            <Elem>FSL_RTOS_MBED</Elem>
+            <Elem>MBED_BUILD_TIMESTAMP=1456192000.44</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>TARGET_CORTEX_M</Elem>
+            <Elem>TARGET_FF_ARDUINO</Elem>
+            <Elem>TARGET_FRDM</Elem>
+            <Elem>TARGET_Freescale</Elem>
+            <Elem>TARGET_K64F</Elem>
+            <Elem>TARGET_KPSDK_CODE</Elem>
+            <Elem>TARGET_KPSDK_MCUS</Elem>
+            <Elem>TARGET_LIKE_CORTEX_M4</Elem>
+            <Elem>TARGET_LIKE_MBED</Elem>
+            <Elem>TARGET_M4</Elem>
+            <Elem>TARGET_MCU_K64F</Elem>
+            <Elem>TARGET_RTOS_M4_M7</Elem>
+            <Elem>TOOLCHAIN_GCC</Elem>
+            <Elem>TOOLCHAIN_GCC_ARM</Elem>
+            <Elem>__CORTEX_M4</Elem>
+            <Elem>__FPU_PRESENT=1</Elem>
+            <Elem>__MBED__=1</Elem>
+          </preprocessorList>
         </ccTool>
       </item>
       <item path="src/FreescaleIAP.cpp" ex="false" tool="1" flavor2="4">
@@ -634,9 +738,9 @@
             <pElem>mbed/TARGET_K64F/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/device/device/MK64F12</pElem>
             <pElem>/usr/include/newlib/c++/4.8</pElem>
             <pElem>/usr/include/newlib/c++/4.8/arm-none-eabi/bits</pElem>
+            <pElem>/usr/include/newlib/c++/4.8/debug</pElem>
             <pElem>glcd</pElem>
             <pElem>SDFileSystem/FATFileSystem</pElem>
-            <pElem>/usr/include/newlib/c++/4.8/debug</pElem>
             <pElem>mbed/TARGET_K64F</pElem>
             <pElem>/usr/include/newlib/c++/4.8/arm-none-eabi</pElem>
             <pElem>.</pElem>

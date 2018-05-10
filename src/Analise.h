@@ -78,6 +78,7 @@ class Analise {
         WAITTOCHARGE,
         
         REGISTERRUN,
+        INTERRUNINFO,
         
         PREPAREEXPAND,
         WAITTOEXPAND,     
@@ -138,6 +139,7 @@ class Analise {
         S_ZEROENDED,
         
         S_FLUSHTIME,
+        S_FLUSHNONE,
         S_FLUSHPULSEON,
         S_FLUSHPULSEOFF,
    
@@ -149,6 +151,7 @@ class Analise {
         S_IDLE_SIG,
         
         S_FLUSHTIME_SIG,
+        S_FLUSHNONE_SIG,
         S_FLUSHPULSEON_SIG,
         S_FLUSHPULSEOFF_SIG,
         S_FLUSHVAC_SIG,
@@ -188,6 +191,9 @@ public:
         double getAccessCode();
         double getUser();
         void setUser(double usertype);
+        
+        void initVars();
+        
         
 private:
     
@@ -230,9 +236,9 @@ private:
  
     vector<pmaps>apmap;
         
-	time_t rawtime;
-	struct tm * timeinfo;
-	char tsbuf[64];
+    time_t rawtime;
+    struct tm * timeinfo;
+    char tsbuf[64];
    
     bool usesequencer;
     char sidhistoryfile[32];
@@ -258,6 +264,7 @@ private:
     bool prefernumeric;
   
     double cellsize;
+    
     double sampleweight;
     bool singlerun;
     
@@ -442,10 +449,15 @@ private:
     double vadded;
     double vcell;
     
+    double vaddeds[3];
+    double vcells[3];
+    double spherevols[3];
+    uint8_t celltype = 0;
+    bool doingcal = false;
+    
     double mass;
     double volume;
     double density;
-    
     
     // Icon Navigation
     uint8_t man_iconptr;
@@ -470,6 +482,9 @@ private:
     std::string * getVCResultString();
     std::string * getFinalString(uint8_t mode, uint8_t slot, bool media);
     std::string * getRunsString(uint8_t run);
+    std::string * getPartialDenString();
+    std::string * getOKtoStartString();
+   
     double getMedia(uint8_t mode);
     
     char * getFormatedTime ( char * format, long rtime);
