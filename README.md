@@ -1,2 +1,4 @@
 # Picno2
-Full Picnometer Embedded Firmware on an ARM M4 &amp; LCD 128x64 
+Full Picnometer Embedded Firmware on an ARM M4 &amp; LCD 128x64
+-- Code is on Master Branch :-)
+
